@@ -14,6 +14,12 @@ Demo
 ============================
 under construction..
 
+Installation using Bower
+============================
+```
+bower install angular-comparison-validate
+```
+
 Usage
 ============================
 
