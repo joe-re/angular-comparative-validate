@@ -1,11 +1,11 @@
-angular-comparative-validate
+angular-comparison-validate
 ============================
 
 - This directive allow you to add angular validation pattern.("less than" and "more than" and like more.)
 
 - This directive support interactive validation between two components.
 
-angular-comparative-validate
+Requirements
 ============================
 
 - AngularJS
@@ -23,7 +23,7 @@ bower install angular-comparison-validate
 Usage
 ============================
 
-# example
+## example
 ```
 <form name="form">
   //.. some code
@@ -36,7 +36,7 @@ Usage
 <p ng-show="form.toDate.$error.compMoreThanEqual">"more than equal" validation error!</p>
 ```
 
-# description
+## description
 These directive require "ng-model" and self("comp-xxxx") argument.
 
 These allow you to add validation pattern of comparison operator.
@@ -46,14 +46,14 @@ Argument of "ng-model" is left hand side and argument of "comp-xxxx" is right ha
 And support interactive validation between two components so watch argument.
 
 
-# directives
+## directives
 - comp-less-than-equal
 - comp-more-than-equal
 - comp-less-than
 - comp-more-than
 - comp-equal
 
-# supplementary explanation
+## supplementary explanation
 - Component is judged to be normal when lhs or rhs are any of the following value.
 
     - ''
