@@ -69,3 +69,6 @@ Release Notes
 # 0.0.1
 - First release
 
+# 0.0.3
+- deal with installation using bower
+
