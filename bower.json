@@ -1,0 +1,17 @@
+{
+  "name": "angular-comparative-validate",
+  "version": "0.0.0",
+  "authors": [
+    "joe-re <joe.tialtngo@gmail.com>"
+  ],
+  "description": "This directive allow you to add angular validation pattern.(\"less-than\" and \"more-than\" and like more.)",
+  "main": "angular-comparison-validate.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
