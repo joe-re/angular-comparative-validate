@@ -23,6 +23,21 @@ bower install angular-comparison-validate
 Usage
 ============================
 
+## introduction
+
+Load the script files in your application:
+
+```
+<script type="text/javascript" src="components/angular/angular.js"></script>
+<script type="text/javascript" src="components/angular-comparison-validate/angular-comparison-validate.js"></script>
+```
+
+Add the date module as a dependency to your application module:
+
+```
+var myAppModule = angular.module('MyApp', ['comparison-validate'])
+```
+
 ## example
 ```
 <form name="form">
